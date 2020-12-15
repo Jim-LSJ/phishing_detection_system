@@ -4,15 +4,13 @@ from scapy.all import *
 from scapy.layers.http import *
 import pandas as pd
 
-def extract_url_from_packets():
-    packets = rdpcap("polarproxy.pcap")
-    urls = pd.DataFrame(columns = ["URL"])    
+def extract_url_from_packets(packets_file, urls=None):
+    if urls is None:
+        urls = pd.DataFrame(columns = ["URL", "src", "dst"])    
+    
     load_layer("http")
-
+    packets = rdpcap(packets_file)
     for packet in packets:
-        if packet.haslayer('HTTP'):
-            txt=packet.show(dump=True)
-
         if packet.haslayer(HTTPRequest):
             if packet[HTTPRequest].Referer: 
                 urls = urls.append({
@@ -27,7 +25,7 @@ def extract_url_from_packets():
     return urls
 
 if __name__ == "__main__":
-    urls = extract_url_from_packets()
+    urls = extract_url_from_packets("packets/test_counter.pcap7")
     print(urls["URL"])
     print(urls["src"])
     print(urls["dst"])

@@ -2,7 +2,7 @@ import json, os
 
 def create_rule(src, dst):
     print("Create rule of {} and {}".format(src, dst))
-    deviceId = "0000000000000001"
+    deviceId = "000042d4e5fe2e4c"
     rule_forward = {
                         "priority": 60000,
                         "timeout": 0,
@@ -64,8 +64,6 @@ def create_rule(src, dst):
                         }
                     }
 
-    print(json.dumps(rule_forward, indent=4))
-    print(json.dumps(rule_backward, indent=4))
     file = open("rule.json", "w")
     file.write(json.dumps(rule_forward, indent=4))
     file.close()
@@ -78,4 +76,4 @@ def create_rule(src, dst):
     os.system("rm rule.json")
 
 if __name__ == "__main__":
-    create_rule("192.168.100.1", "198.70.11.172")
+    create_rule("192.168.100.1", "140.112.36.58")

@@ -1,0 +1,107 @@
+1606811724560	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOlxc0o"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606811729184	Marionette	INFO	Listening on port 32903
+1606811729359	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606811766194	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYRISZY"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/tmanager which is owned by tmanager.)
+1606811837065	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYB6CfI"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/tmanager which is owned by tmanager.)
+1606811874564	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepuJd2l"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606811878244	Marionette	INFO	Listening on port 37669
+1606811878297	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606811889153	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLV4PU3"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/tmanager which is owned by tmanager.)
+1606811915107	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNN1aIV"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/tmanager which is owned by tmanager.)
+1606811970682	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefL7L0d"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606811974257	Marionette	INFO	Listening on port 41569
+1606811974309	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606811979913	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile33yOiy"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/tmanager which is owned by tmanager.)
+1606812849093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezs23It"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/tmanager which is owned by tmanager.)
+1606812864309	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKvtZGK"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606812867625	Marionette	INFO	Listening on port 40927
+1606812867743	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1606813084372	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefi7Luv"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606813088011	Marionette	INFO	Listening on port 46425
+1606813088111	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606813145434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile82KzC5"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606813149239	Marionette	INFO	Listening on port 43787
+1606813149269	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606813176761	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileavRoHJ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606813179996	Marionette	INFO	Listening on port 41147
+1606813180099	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 31097, MediaDecoderStateMachine #1] WARNING: Decoder=7fbed11cf400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-2xLqiD/firefox-83.0+build2/dom/media/MediaDecoderStateMachine.cpp:3471
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 280: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://pagead2.googlesyndication.com/bg/TBttBoAOV_9P70wCNe1Yb7YwaEpF9SEuHDe9V7wzOiY.js line 1 > eval line 5701 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/TBttBoAOV_9P70wCNe1Yb7YwaEpF9SEuHDe9V7wzOiY.js line 1 > eval line 5701 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/redditdfp135517793969/moatad.js#moatClientLevel1=4644657566&moatClientLevel2=2657546603&moatClientLevel3=5508469350&moatClientLevel4=138326850285&moatClientSlicer1=31174081&moatClientSlicer2=21597668521&zMoatSZ=300x250&zMoatPS=, line 260: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/redditdfp135517793969/moatad.js#moatClientLevel1=4644657566&moatClientLevel2=2657546603&moatClientLevel3=5508469350&moatClientLevel4=138326850285&moatClientSlicer1=31174081&moatClientSlicer2=21597668521&zMoatSZ=300x250&zMoatPS=, line 260: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/redditdfp135517793969/moatad.js#moatClientLevel1=4644657566&moatClientLevel2=2657546603&moatClientLevel3=5508469350&moatClientLevel4=138326850285&moatClientSlicer1=31174081&moatClientSlicer2=21597668521&zMoatSZ=300x250&zMoatPS=, line 260: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/redditdfp135517793969/moatad.js#moatClientLevel1=4644657566&moatClientLevel2=2657546603&moatClientLevel3=5508469350&moatClientLevel4=138326850285&moatClientSlicer1=31174081&moatClientSlicer2=21597668521&zMoatSZ=300x250&zMoatPS=, line 260: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7ACX1ll8pxmp-W5IFnwplmFbwq_vDvpxp5bFF4q7ftk.js line 1 > eval line 3717 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7ACX1ll8pxmp-W5IFnwplmFbwq_vDvpxp5bFF4q7ftk.js line 1 > eval line 3717 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/TBttBoAOV_9P70wCNe1Yb7YwaEpF9SEuHDe9V7wzOiY.js line 1 > eval line 3769 > eval line 1 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/TBttBoAOV_9P70wCNe1Yb7YwaEpF9SEuHDe9V7wzOiY.js line 1 > eval line 3769 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606813467937	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileD6F0wi"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606813472081	Marionette	INFO	Listening on port 44673
+1606813472173	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1606814216160	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4Ku1Sv"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606814219576	Marionette	INFO	Listening on port 46531
+1606814219691	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1606814277159	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0sYvE6"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606814280378	Marionette	INFO	Listening on port 33635
+1606814280491	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606814292469	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRLPgXe"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606814295947	Marionette	INFO	Listening on port 45149
+1606814296003	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606814833512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezkNOCC"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606814837398	Marionette	INFO	Listening on port 33517
+1606814837449	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7ACX1ll8pxmp-W5IFnwplmFbwq_vDvpxp5bFF4q7ftk.js line 1 > eval line 2246 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7ACX1ll8pxmp-W5IFnwplmFbwq_vDvpxp5bFF4q7ftk.js line 1 > eval line 2246 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/TBttBoAOV_9P70wCNe1Yb7YwaEpF9SEuHDe9V7wzOiY.js line 1 > eval line 1823 > eval, line 1: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/TBttBoAOV_9P70wCNe1Yb7YwaEpF9SEuHDe9V7wzOiY.js line 1 > eval line 1823 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).

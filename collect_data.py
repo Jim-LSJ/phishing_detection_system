@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium import common
 import pandas as pd
-import time
+import time, os
 
 def create_driver():
     # geckodriver
@@ -34,9 +34,9 @@ def browse(url, driver=None):
         driver.save_screenshot(os.path.join("screenshot", "test.png"))
 
         html = driver.page_source
-        file = open(os.path.join("html", "test.html"), "w")
-        file.write(html)
-        file.close()
+        # file = open(os.path.join("html", "test.html"), "w")
+        # file.write(html)
+        # file.close()
 
         cookies = driver.get_cookies()
         protection = ["httpOnly", "secure", "expiry"]
@@ -67,9 +67,12 @@ def browse(url, driver=None):
         print('\t{} cannot find code'.format(url))
         return df, None
 
-    # except:
-    #     print("\t{} unknown error".format(url))
-    #     return df, None
+    except:
+        print("\t{} unknown error".format(url))
+        return df, None
 
     print("Finish collecting data")
     return df, html
+
+if __name__ == "__main__":
+    driver = create_driver()

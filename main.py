@@ -4,11 +4,12 @@ from feature_extractor import parse_html
 from model import lgbm_pred, load_model
 from onos_rule import create_rule
 
+from selenium import webdriver
+from selenium import common
+
 import csv, os, sys
 import pandas as pd
 import numpy as np
-
-
 
 def main():
     try:
@@ -19,25 +20,31 @@ def main():
     # Load pre-trained LightGBM model
     gbm = load_model()
 
+    print("Create one driver")
+    driver = create_driver()
+
     while True:
         tuple_list = []
         # Waiting for polarproxy.pcap or Sniff packet (real time)
         print("\rWaiting for pcap files...", end="")
 
         # Extract urls from packet
-        if "polarproxy.pcap" in os.listdir("."):
+        urls = None
+        if len(os.listdir("packets")):
             print("\nExtract URLs...")
-            urls = extract_url_from_packets()
-            os.system("rm polarproxy.pcap")
+            files = os.listdir("packets")
+            for file in files:
+                _urls = extract_url_from_packets(os.path.join("packets", file), urls)
+                urls = pd.concat([urls, _urls])
+                os.system("rm " + os.path.join("packets", file))
+            urls = urls.drop_duplicates("URL")
+            urls = urls.reset_index(drop=True)
+            print(urls)
         else:
             continue
-            
-        # # Extract urls from packet
-        # print("Extract URLs...")
         
         # advance: using thread
-        print("Create one driver")
-        driver = create_driver()
+        
         for i in range(len(urls)):
             url = urls.loc[i, "URL"]
 
@@ -64,8 +71,8 @@ def main():
         for t in tuple_list:
             create_rule(t[0], t[1])
 
-        # Close driver
-        close_driver(driver)
+    # Close driver
+    close_driver(driver)
 
 if __name__ == '__main__':
     main()

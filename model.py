@@ -1,4 +1,5 @@
 import lightgbm as lgb
+import numpy as np
 
 def load_model():
     return lgb.Booster(model_file='Weight/mix60_0')
